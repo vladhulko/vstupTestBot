@@ -2,7 +2,7 @@ import telebot
 import requests
 from telebot import types
 
-API_TOKEN = '6609928107:AAHnsEJA1yLR9kDdJEMjsxDMRMwKM6OVV4g'
+API_TOKEN = 'api_token'
 bot = telebot.TeleBot(API_TOKEN)
 
 CURRENCY_API_URL = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5'
